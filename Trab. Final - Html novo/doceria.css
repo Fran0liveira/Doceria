@@ -1,0 +1,25 @@
+h1{
+font-family:"Times New Roman", Times, serif;font-size:85px; font:#ff0000; width:700px; padding-left:80px;}
+h2{
+font-family:"Times New Roman", Times, serif; font-size:20px;padding-left:1150px;
+ }
+.jumbotron{
+background-color:#f77676;
+}
+.login-pesquisa{
+	padding-top:35px;
+float:right;
+padding-right:20px;
+}
+body{
+background-image:URL(http://www.cantinhodobolo.net/_imagem/bgParalax2.png);
+padding-left:20px; }
+.map{
+padding-left:80px;
+padding-right:80px;
+padding-bottom:80px;}
+h4{font-family:"Times New Roman",Times, serif;padding-left:80px;padding-right:80px;font-size:22px;} 
+h5{font-family:"Times New Roman",Times, serif;padding-left:80px;padding-right:80px;font-size:20px;}
+.container1{font-family:"Times New Roman", Times, serif; font-size:20px; padding-top:20px;}
+.login{
+padding-top:230px;}

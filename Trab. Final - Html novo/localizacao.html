@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <title>Doceria Paraíso</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="doceria.css">
+</head>
+<body><!--aqui começa a seção com a barra superior -->
+<div class="btn-group btn-group-justified">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='doceria.html'">
+<span class="glyphicon glyphicon-home"></span> Página Inicial 
+</button>
+</div>
+  <div class="btn-group">
+    <button type="submit" class="btn btn-primary"  onclick="window.location.href='contato.html'">
+<span class="glyphicon glyphicon-earphone"></span> Contato 
+</button>
+</div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='localizacao.html'">
+<span class="glyphicon glyphicon-globe"></span>  Localização 
+</button>
+</div>  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='encomenda.html'">
+<span class="glyphicon glyphicon-shopping-cart"></span> Kit Festa! 
+</button>
+</div>
+<div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <span class="glyphicon glyphicon-menu-hamburger"></span> Produtos </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="bolos.html">Bolos</a></li>
+      <li><a href="pudin.html">Pudins</a></li>
+	  <li><a href="brigadeiro.html">Brigadeiros</a></li>
+    </ul>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='sobre.html'">
+<span class="glyphicon glyphicon-book"></span> Sobre nós
+</button>
+</div>
+</div>
+<!--aqui começa a seção com o login, pesquisa e cadastro -->
+<div class="login-pesquisa">
+
+  <p><input type="txt" name= "pesquisar" placeholder= "Pesquisar">
+<button type="button" class="btn btn-info">
+    <span class="glyphicon glyphicon-search"></span> 
+  </button></p>
+  <button type="button" class="btn btn-info" onclick="window.location.href='login.html'">Fazer Login
+  </button>
+    <button type="button" class="btn btn-info" onclick="window.location.href='cadastro.html'">Cadastrar-se
+  </button>
+</div>
+<h1>Localização</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3><b>Unidade Jundiaí</b></h3><!--aqui começa a seção com as unidades e endereços-->
+      <p>  Jundiaí Shopping, Av. 9 de Julho, 3333 - Anhangabaú, Jundiaí - SP, 13208-056</p>
+    </div>
+    <div class="col-sm-4">
+      <h3><b>Unidade Itupeva</b></h3>
+      <p>R. Verador Nilson Maron, 799 - Minas de Inhandjara, Itupeva, SP 13295000</p>
+    </div>
+    <div class="col-sm-4">
+      <h3><b>Unidade Cabreúva</b></h3>
+	  <p>  Av. Marciano X Oliveira, 314 - Jardim Alice, Cabreúva - SP, 13315-000</p>
+    </div>
+	<div class="col-sm-4">
+      <h3><b>Unidade Indaiatuba</b></h3>
+      <p>  R. Dr. Oswaldo Cruz, 40 - Jardim Rossignatti, Indaiatuba - SP, 13339-020</p>
+    </div>
+	<div class="col-sm-4">
+      <h3><b>Unidade Valinhos</b></h3>
+      <p>      R. Geraldo de Gasperi, 3571 - Dois Córregos, Valinhos - SP, 13278-085<br></p>
+    </div>
+	<div class="col-sm-4">
+      <h3><b>Unidade Itu</b></h3>
+      <p> R. Cleto Fanchini, 604 - Parque Res. Pres. Medici, Itu - SP, 13310-160</P>
+	  </p>
+    </div>
+	<div class="col-sm-4">
+      <h3><b>Unidade Jarinú</b></h3>
+      <p>      R. Cel. José Inácio, 41 - Centro, Jarinu - SP, 13240-000</p>
+    </div>
+	<div class="col-sm-4">
+      <h3><b>Unidade Vinhedo</b></h3>
+      <p>      R. Mari Curi, 157 - Capela, Vinhedo - SP, 13280-000</p>
+    </div>
+	<div class="col-sm-4">
+      <h3><b>Unidade Louveira</b></h3>
+      <p>R. Wagner Luiz Bevilacqua, 35 - Parque dos Estados, Louveira - SP, 13290-000</p>
+    </div>
+  </div>
+</div><br>
+<!--aqui começa a seção com o google maps-->
+<center><b>   Encontre a loja mais próxima de você com o auxílio do mapa:</b></center><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14670.014091780331!2d-46.907688799999995!3d-23.188313649999998!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1512433194378" width="1350" height="500" frameborder="10" style="border:0" allowfullscreen class="map"></iframe>
+</body>
+</html>

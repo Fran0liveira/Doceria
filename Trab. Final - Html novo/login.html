@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <title>Doceria Paraíso</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="doceria.css">
+	<script type="text/javascript" src="doceria.js"></script>
+</head>
+<body><!--aqui começa a seção com a barra superior -->
+<div class="btn-group btn-group-justified">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='doceria.html'">
+<span class="glyphicon glyphicon-home"></span> Página Inicial 
+</button>
+</div>
+  <div class="btn-group">
+    <button type="submit" class="btn btn-primary"  onclick="window.location.href='contato.html'">
+<span class="glyphicon glyphicon-earphone"></span> Contato 
+</button>
+</div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='localizacao.html'">
+<span class="glyphicon glyphicon-globe"></span>  Localização 
+</button>
+</div>  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='encomenda.html'">
+<span class="glyphicon glyphicon-shopping-cart"></span> Kit Festa! 
+</button>
+</div>
+<div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <span class="glyphicon glyphicon-menu-hamburger"></span> Produtos </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="bolos.html">Bolos</a></li>
+      <li><a href="pudin.html">Pudins</a></li>
+	  <li><a href="brigadeiro.html">Brigadeiros</a></li>
+    </ul>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='sobre.html'">
+<span class="glyphicon glyphicon-book"></span> Sobre nós
+</button>
+</div>
+</div>
+<!--aqui começa a seção relacionada ao login-->
+<div class="login">
+<form class="form-inline" >
+ <center><p><label for="email">E-mail:</label>
+    <input type="email" class="form-control" id="email" required></p>
+    <p><label for="pwd">Senha:</label>
+    <input type="password" class="form-control" id="pwd" required></p>
+  <p><div class="checkbox">
+    <label><input type="checkbox"><b> Me lembrar</b></label>
+	  </button>
+    <button type="submit" class="btn btn-info" >Concluir
+  </button>
+  </div></p></center>
+</div>
+</body>
+</html>

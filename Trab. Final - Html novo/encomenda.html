@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <title>Doceria Paraíso</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="doceria.css">
+</head>
+<body><!--aqui começa a seção com a barra superior -->
+<div class="btn-group btn-group-justified">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='doceria.html'">
+<span class="glyphicon glyphicon-home"></span> Página Inicial 
+</button>
+</div>
+  <div class="btn-group">
+    <button type="submit" class="btn btn-primary"  onclick="window.location.href='contato.html'">
+<span class="glyphicon glyphicon-earphone"></span> Contato 
+</button>
+</div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='localizacao.html'">
+<span class="glyphicon glyphicon-globe"></span>  Localização 
+</button>
+</div>  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='encomenda.html'">
+<span class="glyphicon glyphicon-shopping-cart"></span> Kit Festa! 
+</button>
+</div>
+<div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <span class="glyphicon glyphicon-menu-hamburger"></span> Produtos </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="bolos.html">Bolos</a></li>
+      <li><a href="pudin.html">Pudins</a></li>
+	  <li><a href="brigadeiro.html">Brigadeiros</a></li>
+    </ul>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='sobre.html'">
+<span class="glyphicon glyphicon-book"></span> Sobre nós
+</button>
+</div>
+</div>
+<!--aqui começa a seção com o login, pesquisa e cadastro -->
+<div class="login-pesquisa">
+
+  <p><input type="txt" name= "pesquisar" placeholder= "Pesquisar">
+<button type="button" class="btn btn-info">
+    <span class="glyphicon glyphicon-search"></span> 
+  </button></p>
+  <button type="button" class="btn btn-info" onclick="window.location.href='login.html'">Fazer Login
+  </button>
+    <button type="button" class="btn btn-info" onclick="window.location.href='cadastro.html'">Cadastrar-se
+  </button>
+</div>
+<!--aqui começa a seção com as opções de Kit-->
+<p><h1>Kits Festa</h1></p>       
+  <p><img src="img/festa.jpg" class="img-thumbnail" alt="kit 1" width="304" height="236"></P>
+      <b>Kit Festa Escritório</b> <br>
+	  <div class="radio">
+  <label><input type="radio" name="optradio">Até 10 pessoas - R$ 217,00</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Até 15 pessoas - R$ 311,00</label>
+</div>
+<div class="radio ">
+  <label><input type="radio" name="optradio" >Até 20 pessoas - R$ 403,00</label>
+</div>
+</div><button type="button" class="btn btn-info" onClick="alert('Adicionado ao carrinho');">Adicionar ao carrinho!
+  </button>
+  </p>
+    <p><img src="img/festa2.jpg" class="img-thumbnail" alt="kit 2" width="304" height="236"></P>
+      <b>Kit Festa Tradicional<br></b>
+	  	  <div class="radio">
+  <label><input type="radio" name="optradio">Até 10 pessoas - R$ 265,00</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Até 15 pessoas - R$ 362,00</label>
+</div>
+<div class="radio ">
+  <label><input type="radio" name="optradio" >Até 20 pessoas - R$ 470,00</label>
+</div>
+</div><button type="button" class="btn btn-info" onClick="alert('Adicionado ao carrinho');">Adicionar ao carrinho!
+  </button>
+  </p>
+  <p><img src="img/festa3.jpg" class="img-thumbnail" alt="kit 3" width="304" height="236"></P>
+        <b>Kit Festa Infantil <br></b>
+	  <div class="radio">
+  <label><input type="radio" name="optradio">Até 10 pessoas - R$ 210,00</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Até 15 pessoas - R$ 302,00</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Até 20 pessoas - R$ 413,00</label>
+</div>
+</div><button type="button" class="btn btn-info" onClick="alert('Adicionado ao carrinho');">Adicionar ao carrinho!
+  </button>
+  </p>
+</div>
+<div class="form-group"><p><b>Opções para compor o kit:</b><br></p><!--aqui começa a seção com as opções para compor o Kit-->
+Bolos: abacaxi, brigadeiro, coco, fantasias, massa folhada, marshmallow de chocolate e prestigio<br>
+Doces: brigadeiro, beijinho, cajuzinho, brigadeiro branco e brigadeiro rosa.<br>
+Salgados:Coxinha, esfiha, kibe, bolinha de queijo, rissoles de queijo, carne e presunto e queijo, enroladinho de salsicha e presunto e queijo e pão de queijo<br>
+Descartaveis, vela e guardanapos vao de cortesia nos kits.<br></p>
+<!--aqui começa a seção com numero de pessoas -->
+<b>Até 10 pessoas</b><br>
+1 Bolo ( 1,5 kg)<br>
+50 Doces<br>
+100 salgados<br>
+3 refrigerantes de 2 litros ou 3 sucos de 1 litro sufresh<br>
+
+
+<b>Até 15 pessoas</b><br>
+1 Bolo ( 2kg)<br>
+75 Doces <br>
+135 salgados<br>
+4 refrigerantes de 2 litros ou 4 sucos de 1 litro sufresh<br>
+<p>
+<b>Até 20 pessoas</b><br>
+1 Bolo ( 2,5 kg)<br>
+100 Doces <br>
+180 salgados<br>
+5 refrigerantes de 2 litros ou 5 sucos de 1 litro sufresh<br></p>
+
+<button type="button" class="btn btn-info" onClick="alert('Compra Finalizada');">Finalizar compra
+</body>
+
+</html>

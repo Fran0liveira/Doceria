@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <title>Doceria Paraíso</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="doceria.css">
+</head>
+<body><!--aqui começa a seção com a barra superior -->
+<div class="btn-group btn-group-justified">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='doceria.html'">
+<span class="glyphicon glyphicon-home"></span> Página Inicial 
+</button>
+</div>
+  <div class="btn-group">
+    <button type="submit" class="btn btn-primary"  onclick="window.location.href='contato.html'">
+<span class="glyphicon glyphicon-earphone"></span> Contato 
+</button>
+</div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='localizacao.html'">
+<span class="glyphicon glyphicon-globe"></span>  Localização 
+</button>
+</div>  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='encomenda.html'">
+<span class="glyphicon glyphicon-shopping-cart"></span> Kit Festa! 
+</button>
+</div>
+<div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <span class="glyphicon glyphicon-menu-hamburger"></span> Produtos </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="bolos.html">Bolos</a></li>
+      <li><a href="pudin.html">Pudins</a></li>
+	  <li><a href="brigadeiro.html">Brigadeiros</a></li>
+    </ul>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" onclick="window.location.href='sobre.html'">
+<span class="glyphicon glyphicon-book"></span> Sobre nós
+</button>
+</div>
+</div>
+<!--aqui começa a seção com o login, pesquisa e cadastro -->
+<div class="login-pesquisa">
+
+  <p><input type="txt" name= "pesquisar" placeholder= "Pesquisar">
+<button type="button" class="btn btn-info">
+    <span class="glyphicon glyphicon-search"></span> 
+  </button></p>
+  <button type="button" class="btn btn-info" onclick="window.location.href='login.html'">Fazer Login
+  </button>
+    <button type="button" class="btn btn-info" onclick="window.location.href='cadastro.html'">Cadastrar-se
+  </button>
+</div>
+<!--aqui começa a seção com os tipos de bolo -->
+<p><b><h4>BOLOS</h4></b></p>       
+  <p><img src="img/bolochoc.jpg" class="img-thumbnail" alt="BOLO CHOCOLATE" width="304" height="236"></P>
+      Chocolate - R$30,00<div class="form-group">
+  <p><label for="sel1">Informe a quantidade:</label>
+<input type="txt" name= "quantidadeProduto" placeholder="0" size=6>
+</div><button type="button" class="btn btn-info" onClick="alert('Adicionado ao carrinho!'); ">Adicionar ao carrinho!
+  </button>
+  </p>
+    <p><img src="img/bolomor.jpg" class="img-thumbnail" alt="BOLO MORANGO" width="304" height="236"></P>
+      Morango - R$30,00<div class="form-group">
+  <p><label for="sel1">Informe a quantidade:</label>
+<input type="txt" name= "quantidadeProduto" placeholder="0" size=6>
+</div><button type="button" class="btn btn-info" onClick="alert('Adicionado ao carrinho!');">Adicionar ao carrinho!
+  </button>
+  </p>
+  <p><img src="img/bolobr.jpg" class="img-thumbnail" alt="BOLO CHOCOLATE BRANCO" width="304" height="236"></P>
+      Chocolate Branco - R$30,00 <div class="form-group">
+  <p><label for="sel1">Informe a quantidade:</label>
+<input type="txt" name= "quantidadeProduto" placeholder="0" size=6>
+</div><button type="button" class="btn btn-info" onClick="alert('Adicionado ao carrinho!');">Adicionar ao carrinho!
+  </button>
+  </p>
+</div>
+<button type="button" class="btn btn-info"onClick="alert('Compra Finalizada');">Finalizar compra
+  </button>
+</body>
+</html>
